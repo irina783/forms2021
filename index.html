@@ -14,9 +14,9 @@
             <h2>01. проста форма</h2>
             <form action="sendmail.php" method="POST">
                 <p><label class="simple"><input class="textinput" type="text" name="user_name"
-                            placeholder="Введіть ім'я" maxlength="30" /></label></p>
+                            placeholder="Введіть ім'я" maxlength="30" required /></label></p>
                 <p><label class="simple"><input class="textinput" type="email" name="user_email" placeholder="Email"
-                            maxlength="30" /></label></p>
+                            maxlength="30" required /></label></p>
                 <p class="city-select">
                     <label class="simple-select" for="city">
                         <select class="selectinput" id="city" name="city">
@@ -128,7 +128,7 @@
                     </tr>
                     <tr>
                         <td><label class="fullname width-labelf4" for="fio">фіо:</label></td>
-                        <td><input class="tform-text width-form4" type="text" id="fio" name="names" required placeholder="Введіть ім'я" maxlength="35" /></td>
+                        <td><input class="tform-text width-form4" type="text" id="fio" name="names" required placeholder="Введіть ім'я" maxlength="30" /></td>
                     </tr>
                     <tr>
                         <td><label class="width-labelf4" for="p-w">Пароль:</label></td>

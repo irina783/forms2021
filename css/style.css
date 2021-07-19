@@ -88,18 +88,6 @@ textarea{
     background-color: #fff;
     border-radius: 3px;
 }
-/*.simple-select:before{
-    content: '';
-    position: absolute;
-    right: 20px;
-    top: 14px;
-    border: 3px solid transparent;
-    border-right-color: #1f222c;
-    border-bottom-color: #1f222c;
-    transform: rotate(45deg);
-    z-index: 0;
-}
-*/
 .simple-select:before,
 .tform-select:before,
 .tform-select5:before{
@@ -188,6 +176,7 @@ input[type="reset"]{
     border-radius: 3px;
     text-align: center;
 }
+
 input[type="submit"]:hover{
     box-shadow: 0px 2px 2.5px rgba(8,118,52,0.35);
     outline: none;
@@ -458,8 +447,6 @@ input[type="submit"]:hover{
 .width-form4{
     width: 68%%;
 }
-
-
 .tform-heading{
     color: #1f222c;
     font: 700 18px "Roboto"
@@ -558,16 +545,6 @@ input[type="submit"]:hover{
     width: 100%;
     border-collapse: collapse;
 }
-/*.table5,
-select.country-select{
-    padding: 10px 15px;
-    max-width: 220px;
-    width: 100%;
-    color: #1f222c;
-    font: 400 14px "Roboto";
-    border-radius: 3px;
-    border: 1px solid #ccc;
-}*/
 .adds{
     max-width: 450px;
 }
@@ -600,8 +577,8 @@ select.country-select{
 }
 .form-table5 hr{
     margin-top: 0;
-    border: 1px solid transparent;
-    border-top-color: #e9e9e9;
+    border: none;
+    border-top: 1px solid #dcdcde;
 }
 .hr-line1{
     margin-bottom: 7px;
@@ -616,8 +593,8 @@ select.country-select{
 .tf2{
     margin-bottom: 20px;
 }
-.tf1 tr:nth-child(odd) td,
-.tf2 tr:nth-child(even) td{
+.tf1 tr:nth-child(odd) td:not(:last-child),
+.tf2 tr:nth-child(even) td:not(:last-child){
     padding-right: 10px;
 }
 .tform5-submit{
@@ -675,6 +652,7 @@ select.country-select{
     left: 289px;
     font-size: 20px;
     color: #b3b3b3;
+    transform: rotate(45deg);
     z-index: 2;
 }
 #close-form6+label:after{
@@ -693,9 +671,6 @@ select.country-select{
 }
 #close-form6+.close:hover:before{
     color: #fff;
-}
-#close-form6+label:before{
-    transform: rotate(45deg);
 }
 #close-form6:checked+label{
     background-color: transparent;
@@ -757,13 +732,6 @@ select.country-select{
     padding: 10px;
     margin-bottom: 20px;
     max-width: 260px;
-    width: 100%;
-    border-radius: 3px;
-    background-color: #12d661;
-    color: #fff;
-    font: 700 14px "Roboto";
-    text-align: center;
-    border: none;
 }
 .fixed_form6 label,
 .forget_pw{
@@ -791,11 +759,3 @@ select.country-select{
 .fixed_form6 p{
     margin: 9px 0;
 }
-
-
-
-
-
-
-
-
