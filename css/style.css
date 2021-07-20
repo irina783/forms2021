@@ -187,7 +187,7 @@ input[type="submit"]:hover{
 
 /* form2 */
 .date_status{
-    width: 49%;
+    width: 43%;
     border-radius: 3px;
     background-color: #f7f7f7;
     border: 1px solid #e5e5e5;
@@ -203,10 +203,10 @@ input[type="submit"]:hover{
     margin-top: 0;
 }
 .radio-buttons{
-    width: 16.5%;
+    width: 19.5%;
 }
 .check-buttons{
-    width: 34.3%;
+    width: 37.3%;
 }
 .delivery,
 .delivery2,
