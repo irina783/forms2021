@@ -131,6 +131,7 @@ select,
 textarea{
     padding: 12px 15px 9px;
     width: 100%;
+    font: 400 14px "Roboto";
     border-radius: 3px;
     border: 1px solid #ccc;
 }
@@ -291,11 +292,10 @@ input[type="submit"]:hover{
     position: absolute;
     left: 5px;
     top: 4px;
-    width: 7px;
-    height: 4px;
+    width: 6px;
+    height: 3.5px;
     border-left: 2px solid #244dd7;
     border-bottom: 2px solid #244dd7;
-    border-radius: 5px;
     transform: rotate(-45deg);
 }
 .date_status span{
@@ -322,11 +322,15 @@ input[type="submit"]:hover{
     border-radius: 3px;
     outline: none;
 }
+.data:focus{
+    box-shadow: 0 0 2.5px rgba(62,106,255,0.55);
+    border: 1px solid #3e6aff;
+}
 ::-webkit-calendar-picker-indicator {
     background-image: url(../img/calendar.png);
     outline: none;
 }
-.date_status .delivery2+label{
+.date_status .delivery2+label:not(:last-child){
     margin-right: 20px;
 }
 
@@ -458,7 +462,7 @@ input[type="submit"]:hover{
     padding: 12px;
 }
 .table_form td:not(.tform-heading):not(td:last-child){
-    width: 32%%;
+    width: 32%;
     color: #1f222c;
     font: 400 14px "Roboto";
 }
@@ -467,7 +471,7 @@ input[type="submit"]:hover{
 }
 .tform-select:before{
     top: 5px;
-    right: -317px;
+    right: -202%;
 }
 .town-select,
 .country-select{
@@ -716,6 +720,9 @@ input[type="submit"]:hover{
     color: #3e6aff;
     font: 400 13px "Roboto";
     text-decoration: none;
+}
+.forget_pw span:hover{
+    text-decoration: underline;
 }
 .remember-label{
     color: #1f222c;
