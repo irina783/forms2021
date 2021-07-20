@@ -187,7 +187,7 @@ input[type="submit"]:hover{
 
 /* form2 */
 .date_status{
-    width: 43%;
+    width: 44%;
     border-radius: 3px;
     background-color: #f7f7f7;
     border: 1px solid #e5e5e5;
@@ -206,7 +206,7 @@ input[type="submit"]:hover{
     width: 19.5%;
 }
 .check-buttons{
-    width: 37.3%;
+    width: 36.3%;
 }
 .delivery,
 .delivery2,
