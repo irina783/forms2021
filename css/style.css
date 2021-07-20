@@ -302,7 +302,7 @@ input[type="submit"]:hover{
     display: inline-block;
     width: 82px;
     color: #b3b3b3;
-    font-family: 700 14px "Roboto";
+    font: 700 14px "Roboto";
 }
 .status{
     padding: 21px 20px 11px;
@@ -401,7 +401,7 @@ input[type="submit"]:hover{
 .style-radio p:last-child{
     margin-bottom: 16px;
 }
-.style-check p:not(p:last-child){
+.style-check p:not(:last-child){
     margin-bottom: 30px;
 }
 .other+label:before{
@@ -446,10 +446,7 @@ input[type="submit"]:hover{
 }
 .table_form .width-labelf4{
     display: inline-block;
-    width: 32%%;
-}
-.width-form4{
-    width: 68%%;
+    width: 32%;
 }
 .tform-heading{
     color: #1f222c;
@@ -461,7 +458,7 @@ input[type="submit"]:hover{
 .tform-text{
     padding: 12px;
 }
-.table_form td:not(.tform-heading):not(td:last-child){
+.table_form td:not(.tform-heading):not(:last-child){
     width: 32%;
     color: #1f222c;
     font: 400 14px "Roboto";
@@ -471,12 +468,12 @@ input[type="submit"]:hover{
 }
 .tform-select:before{
     top: 5px;
-    right: -202%;
+    left: 929%;
 }
 .town-select,
 .country-select{
     color: #1f222c;
-    font-family: 400 14px "Roboto";
+    font: 400 14px "Roboto";
 }
 .r-men+label{
     margin-right: 20px;
